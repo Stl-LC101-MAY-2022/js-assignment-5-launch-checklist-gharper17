@@ -37,8 +37,8 @@ window.addEventListener("load", function() {
       event.preventDefault();
 
       let list = document.getElementsById("faultyItems");
-      let pilot = pilotInput.value;
-      let copilot = copilotInput.value;
+      let pilot = pilotNameInput.value;
+      let copilot = coPilotNameInput.value;
       let fuelLevel = fuelLevelInput.value;
       let cargoLevel = cargoLevelInput.value;
       formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel);
